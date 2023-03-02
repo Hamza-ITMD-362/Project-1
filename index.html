@@ -1,0 +1,38 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project 1</title>
+	<link href="assets/css/reset.css" rel="stylesheet" media="screen">
+    <link href="assets/css/screen.css" rel="stylesheet" media="screen">
+	<script src="assets/js/site.js" async></script>
+</head>
+<body>
+    <main>
+      <section class="overlay">
+      <form class="sign-in" method="get" action="#null" autocomplete="on">        
+      <h2>Signing Up Form</h2>
+      <ul class="text-input">
+      <li> <label for="full-name">Full Name</label> <input type="text" name="Name" id="full-name" placeholder="Hamza">
+        <p class="error" id="full-name-error"></p>
+      </li>
+      <li> <label for="email">Email</label> <input type="text" name="email address6	" id="email address" placeholder="123@gmail.com" required>
+        <p class="error" id="email-error"></p>
+      </li>
+      <li> <label for="password">Password</label> <input type="password" name="password" id="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="You Must have one number and one lowercase and uppercase letter, and around 7 to 8 characters" required>
+        <p class="error" id="password-error"></p>
+      </li>
+      <li> <label for="confirm-password">Confirm Password</label> <input type="password" name="confirm" id="confirm-password" placeholder="confirm_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="You Must have one number and one lowercase and uppercase letter, and around 7 to 8 characters" required>
+        <p class="error" id="confirm-password-error"></p>
+      </li>
+      </ul>
+      <ul class="check-input">
+      <li> <input type="checkbox" name="marketing" id="marketing"> <label for="marketing">Yes, I want to receive additional info and marketing emails</label> </li>
+      <li> <input type="checkbox" name="terms" id="terms"> <label for="terms">I agree to the terms and conditions</label>
+        <p class="error" id="terms-error"></p>
+      </li>
+      </ul> <button>Create Account</button>
+      </form>
+      </section>
+      </main>
+</body>
