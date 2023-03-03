@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     background-size: cover;
+	display: flex;
 }
 
 @media screen and (min-width: 800px) {
