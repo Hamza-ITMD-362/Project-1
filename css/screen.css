@@ -7,6 +7,10 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     font-family: 'Roboto', sans-serif;
+	height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
 
 @media screen and (min-width: 800px) {
@@ -28,7 +32,6 @@ body{
     background-color: rgba(1, 1, 1, 0.1);
 	width: 100%;
     max-width: 650px;
-    background: rgba(0, 0, 0 );
     padding: 28px;
     margin: 0 28px;
     border-radius: 10px;
