@@ -3,7 +3,7 @@ html, body{
 }
 
 body{
-    background-color: green;
+    background-image: url("images/ni.jpeg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     font-family: 'Roboto', sans-serif;
