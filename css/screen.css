@@ -25,13 +25,13 @@ body{
 }
 
 .overlay{
-    align-items: center;
     background-color: rgba(1, 1, 1, 0.1);
-    display: flex;
-    height: 100%;
-    justify-content: space-evenly;
-    position: fixed;
-    width: 100%;
+	width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0 );
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
 }
 
 .sign-in{
