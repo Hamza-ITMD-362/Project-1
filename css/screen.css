@@ -95,3 +95,12 @@ button{
     font-size: 1.30em;
     padding: 0.6em;
 }
+
+container{
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0 );
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+}
