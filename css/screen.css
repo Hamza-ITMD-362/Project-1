@@ -11,13 +11,13 @@ body{
 
 @media screen and (min-width: 800px) {
     body{
-        background-image: url("/images/nit.png");
+        background-image: url("images/nit.png");
     }
 }
 
 @media screen and (min-width: 1200px) {
     body{
-        background-image: url("/images/nit.png");
+        background-image: url("images/nit.png");
     }
     .check-input li{
         padding-right: 7.5em;
@@ -64,14 +64,14 @@ body{
 }
 
 .text-input li input{
-    border:1px solid #c3bfbf;
+    border:1px solid black;
     font-size: 1em;
     outline: 0;
     padding: 0.4em 0.1em 0.4em 0.4em;
 }
 
 .text-input li input:focus-visible{
-    border:1px solid #c3bfbf;
+    border:1px solid blue;
 }
 
 .check-input li{
