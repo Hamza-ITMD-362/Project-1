@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
   font-family: 'Roboto', Arial, sans-serif;
 }
@@ -128,7 +126,10 @@ check-input {
 }
 
 input[type="checkbox"] {
-  position: relative;
-  top: 20px;
-  left:
+  float: right;
+  margin-top: 150px;
+  margin-left: 150px;
+  padding: 0;
 }
+
+
