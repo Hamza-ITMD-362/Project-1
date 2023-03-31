@@ -1,119 +1,123 @@
-html, body{
-    height: 100%;
+html, body {
+  height: 100%;
 }
 
-body{
-    background-image: url("../images/musdes.jpg");
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-	height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-	display: flex;
+body {
+  background-image: url("../images/musdes.jpg");
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  display: flex;
 }
 
 @media screen and (min-width: 800px) {
-    body{
-        background-image: url("../images/musmob.jpg");
-    }
+  body {
+    background-image: url("../images/musmob.jpg");
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    body{
-        background-image: url("../images/musdes.jpg");
-    }
-    .check-input li{
-        padding-right: 7.5em;
-    }
-}
-body{
-	color:white;
+  body {
+    background-image: url("../images/musdes.jpg");
+  }
+  .check-input li {
+    padding-right: 7.5em;
+  }
 }
 
-.overlay{
-    background-color: rgba(1, 1, 1, 0.1);
-	width: 100%;
-    max-width: 650px;
-    padding: 28px;
-    margin: 0 28px;
-    border-radius: 10px;
+body {
+  color: white;
 }
 
-.sign-in{
-    background-color: #1A2E6B;
-    display: flex;
-    flex-direction: column;
-    height: max-content;
-    padding: 1.1em 1.1em 1.1em 1.1em;
-    max-width: 70em;
-    border-radius: 0.2em;
+.overlay {
+  background-color: rgba(1, 1, 1, 0.1);
+  width: 100%;
+  max-width: 650px;
+  padding: 28px;
+  margin: 0 28px;
+  border-radius: 10px;
 }
 
-.sign-in h2{
-    font-size: 1.563em; 
-    width: max-content;
-    padding: 0 0 1em 0;
-    margin: 0 auto;
+.sign-in {
+  background-color: #1A2E6B;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  padding: 1.1em 1.1em 1.1em 1.1em;
+  max-width: 70em;
+  border-radius: 0.2em;
 }
 
-.text-input li{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1em;
+.sign-in h2 {
+  font-size: 1.563em;
+  width: max-content;
+  padding: 0 0 1em 0;
+  margin: 0 auto;
 }
 
-.text-input li label{
-    font-size: 1.20em; 
-    font-weight: 400;
-    padding-bottom: 0.3em;
+.text-input li {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1em;
 }
 
-.text-input li input{
-    border:1px solid black;
-    font-size: 1em;
-    outline: 0;
-    padding: 0.4em 0.1em 0.4em 0.4em;
+.text-input li label {
+  font-size: 1.20em;
+  font-weight: 400;
+  padding-bottom: 0.3em;
 }
 
-.text-input li input:focus-visible{
-    border:1px solid blue;
+.text-input li input {
+  border: 1px solid black;
+  font-size: 1em;
+  outline: 0;
+  padding: 0.4em 0.1em 0.4em 0.4em;
 }
 
-.check-input li{
-    font-size: 1.1em;
-    padding-bottom: 0.7em;
+.text-input li input:focus-visible {
+  border: 1px solid blue;
 }
 
-.check-input input, .check-input label{
-    font-size: 0.8em;
-}
- 
-
-button, input[type="checkbox"]{
-    cursor: pointer;
+.check-input li {
+  font-size: 1.1em;
+  padding-bottom: 0.7em;
 }
 
-button{
-    background-color:red;
-    border: 0;
-    border-radius: 0.5em;
-    color:white;
-    font-size: 1.30em;
-    padding: 0.6em;
+.check-input input,
+.check-input label {
+  font-size: 0.8em;
 }
 
-container{
-    width: 100%;
-    max-width: 650px;
-    background: rgba(0, 0, 0 );
-    padding: 28px;
-    margin: 0 28px;
-    border-radius: 10px;
+button,
+input[type="checkbox"] {
+  cursor: pointer;
 }
-check-input{
-	margin-right: 10px;
+
+button {
+  background-color: red;
+  border: 0;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 1.30em;
+  padding: 0.6em;
 }
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  background: rgba(0, 0, 0);
+  padding: 28px;
+  margin: 0 28px;
+  border-radius: 10px;
+}
+
+.check-input {
+  margin-right: 10px;
+}
+
 input[type="checkbox"] {
   position: relative;
   top: 20px;

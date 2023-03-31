@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Project 1</title>
-	<link href="css/reset.css" rel="stylesheet" media="reset">
+    <link href="css/reset.css" rel="stylesheet" media="reset">
     <link href="css/screen.css" rel="stylesheet" media="screen">
-	<script src="js/site.js" async></script>
-</head>
-<body>
+    <script src="js/site.js" async></script>
+  </head>
+  <body>
     <main>
       <section class="overlay">
-      <form class="sign-in" method="get" action="#null" autocomplete="on">        
-      <h2>Sign up Form for Car Meet</h2>
-      <ul class="text-input">
-      <li> <label for="full-name">Name</label> <input type="text" name="Name" id="full-name" placeholder="Name">
-        <p class="error" id="full-name-error"></p>
-      </li>
-      <li> <label for="email">Email Address</label> <input type="text" name="email address" id="email address" placeholder="123@gmail.com" required>
-        <p class="error" id="email-error"></p>
-      </li>
-      <li> <label for="password">Passcode</label> <input type="password" name="password" id="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="You Must have one number and one lowercase and uppercase letter, and around 7 to 8 characters" required>
-        <p class="error" id="password-error"></p>
-      </li>
-      </ul>
-      <input type="checkbox" id="acknowledge" name="acknowledge" required><label for="acknowledge">I acknowledge that I have read and agree to the terms and conditions</label>
-	  <input type="checkbox" id="acknowledge" name="acknowledge" required><label for="acknowledge"> I am not a robot</label>
-      <br>
-      <ul class="check-input">
-      </ul> <button>sign up</button>
-      </form>
+        <form class="sign-in" method="get" action="#null" autocomplete="on">        
+          <h2>Sign up Form for Car Meet</h2>
+          <ul class="text-input">
+            <li>
+              <label for="full-name">Name</label>
+              <input type="text" name="Name" id="full-name" placeholder="Name">
+              <p class="error" id="full-name-error"></p>
+            </li>
+            <li>
+              <label for="email">Email Address</label>
+              <input type="text" name="email address" id="email address" placeholder="123@gmail.com" required>
+              <p class="error" id="email-error"></p>
+            </li>
+            <li>
+              <label for="password">Passcode</label>
+              <input type="password" name="password" id="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="You Must have one number and one lowercase and uppercase letter, and around 7 to 8 characters" required>
+              <p class="error" id="password-error"></p>
+            </li>
+          </ul>
+          <input type="checkbox" id="acknowledge" name="acknowledge" required>
+          <label for="acknowledge">I acknowledge that I have read and agree to the terms and conditions</label>
+          <input type="checkbox" id="robot" name="robot" required>
+          <label for="robot">I am not a robot</label>
+          <ul class="check-input"></ul>
+          <input type="submit" value="Join the Car Meet!">
+        </form>
       </section>
-      </main>
-</body>
+    </main>
+  </body>
+</html>
